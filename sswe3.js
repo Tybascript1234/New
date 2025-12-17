@@ -83,8 +83,7 @@
             display: none;
             margin-top: 20px;
             justify-content: center;
-            width: 100%;
-            max-width: 600px;
+            width: max-content;
         }
         
         .${PREFIX}toolbar-main {
