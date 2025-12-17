@@ -206,7 +206,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.3);
+            background: #0000;
             z-index: 999;
             display: none;
         }
@@ -412,7 +412,7 @@
         // Overlay
         const overlay = document.createElement('div');
         overlay.className = PREFIX + 'overlay';
-        overlay.style.zIndex = '998';
+        overlay.style.zIndex = '-1';
         elements.overlay = overlay;
 
         // Main toolbar wrapper
