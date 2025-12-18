@@ -344,6 +344,9 @@
                     #${uniqueId} .painter-actions-bottom {
                         display: none;
                     }
+                    #${uniqueId} .painter-colors-section {
+                        box-shadow: 0px 1px 0px rgb(242 242 242);
+                    }
                 }
                 
                 #${uniqueId} .painter-brand {
