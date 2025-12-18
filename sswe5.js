@@ -200,8 +200,8 @@
                     left: 0;
                     width: 100%;
                     height: 100%;
-                    background: rgba(0, 0, 0, 0.3);
-                    z-index: 999;
+                    // background: rgba(0, 0, 0, 0.3);
+                    z-index: -1;
                     display: none;
                     pointer-events: auto;
                 }
@@ -306,8 +306,8 @@
                         display: none;
                         margin-top: 20px;
                         justify-content: center;
-                        width: 100%;
-                        max-width: 600px;
+                        width: max-content;
+                        // max-width: 600px;
                     }
                     
                     #${uniqueId} .painter-toolbox {
