@@ -74,8 +74,8 @@
                     display: none;
                     margin-top: 20px;
                     justify-content: center;
-                    width: 100%;
-                    max-width: 600px;
+                    width: max-content;
+                    // max-width: 600px;
                     pointer-events: auto;
                 }
                 
@@ -306,8 +306,8 @@
                         display: none;
                         margin-top: 20px;
                         justify-content: center;
-                        width: max-content;
-                        // max-width: 600px;
+                        width: 100%;
+                        max-width: 600px;
                     }
                     
                     #${uniqueId} .painter-toolbox {
